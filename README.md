@@ -208,9 +208,3 @@ This project demonstrates:
 * How I implement features
 
 ---
-
-## 👩‍💻 Author
-
-Neha Kumari
-👉 Write your **Google Docs design document** (for submission)
-👉 Help you **explain this confidently in interview (very important)**
