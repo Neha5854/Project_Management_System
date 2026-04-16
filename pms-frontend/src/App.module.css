@@ -1,0 +1,135 @@
+.authShell {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background:
+    radial-gradient(circle at top left, rgba(19, 122, 127, 0.18), transparent 38%),
+    radial-gradient(circle at bottom right, rgba(240, 180, 41, 0.18), transparent 32%),
+    linear-gradient(135deg, #f4f7fb 0%, #eef3f8 100%);
+}
+
+.authCard {
+  width: min(960px, 100%);
+  padding: 32px;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.12);
+}
+
+.heroCopy h1 {
+  margin: 10px 0 12px;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1.05;
+  color: #132238;
+}
+
+.heroCopy p {
+  margin: 0 0 24px;
+  max-width: 640px;
+  color: #516072;
+  font-size: 1rem;
+}
+
+.kicker {
+  display: inline-flex;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #132238;
+  color: #f8fbff;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.roleGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.roleCard {
+  border: 1px solid #d9e1ea;
+  border-radius: 20px;
+  background: #ffffff;
+  padding: 18px;
+  text-align: left;
+  cursor: pointer;
+  display: grid;
+  gap: 8px;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.roleCard:hover,
+.roleCardActive {
+  transform: translateY(-2px);
+  border-color: #137a7f;
+  box-shadow: 0 12px 30px rgba(19, 122, 127, 0.16);
+}
+
+.roleCard strong {
+  font-size: 1.05rem;
+  color: #132238;
+}
+
+.roleCard span {
+  color: #5f6e80;
+  line-height: 1.5;
+}
+
+.nameField {
+  display: grid;
+  gap: 8px;
+}
+
+.nameField label {
+  font-weight: 600;
+  color: #213247;
+}
+
+.nameField input {
+  border: 1px solid #cfdae6;
+  border-radius: 14px;
+  padding: 14px 16px;
+  font-size: 1rem;
+  background: #fbfdff;
+}
+
+.enterButton {
+  margin-top: 20px;
+  border: none;
+  border-radius: 14px;
+  padding: 14px 20px;
+  background: linear-gradient(135deg, #137a7f 0%, #0c5f63 100%);
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.enterButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.appShell {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  background: #edf2f7;
+}
+
+.mainPanel {
+  padding: 24px;
+}
+
+@media (max-width: 900px) {
+  .appShell {
+    grid-template-columns: 1fr;
+  }
+
+  .mainPanel {
+    padding: 16px;
+  }
+}

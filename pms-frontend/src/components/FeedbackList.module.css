@@ -1,0 +1,65 @@
+.panel {
+  padding: 22px;
+  border-radius: 24px;
+  background: #ffffff;
+  border: 1px solid rgba(19, 34, 56, 0.08);
+  box-shadow: 0 14px 32px rgba(19, 34, 56, 0.08);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.header h3,
+.header span,
+.feedbackCard p {
+  margin: 0;
+}
+
+.header span {
+  color: #637285;
+  font-weight: 600;
+}
+
+.stack {
+  display: grid;
+  gap: 14px;
+}
+
+.feedbackCard {
+  border: 1px solid #e0e7ef;
+  border-radius: 18px;
+  padding: 16px;
+  background: #fbfdff;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.meta span {
+  text-transform: capitalize;
+  color: #137a7f;
+  font-weight: 700;
+}
+
+.feedbackCard p {
+  color: #5d6d7d;
+  line-height: 1.5;
+}
+
+.emptyState {
+  border: 1px dashed #ccd7e2;
+  border-radius: 18px;
+  padding: 24px;
+  text-align: center;
+  color: #68788c;
+  background: #f9fbfd;
+}

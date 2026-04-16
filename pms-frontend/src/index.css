@@ -1,0 +1,28 @@
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", "Trebuchet MS", sans-serif;
+  background: #edf2f7;
+  color: #132238;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #edf2f7;
+  color: #132238;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}

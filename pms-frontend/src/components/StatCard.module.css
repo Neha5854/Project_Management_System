@@ -1,0 +1,32 @@
+.card {
+  padding: 18px;
+  border-radius: 22px;
+  background: #ffffff;
+  border: 1px solid rgba(19, 34, 56, 0.08);
+  box-shadow: 0 12px 30px rgba(19, 34, 56, 0.06);
+  display: grid;
+  gap: 8px;
+}
+
+.card span {
+  color: #5b6a7a;
+  font-weight: 600;
+}
+
+.card strong {
+  font-size: 2rem;
+  color: #132238;
+}
+
+.accent {
+  background: linear-gradient(135deg, #137a7f 0%, #0f6266 100%);
+}
+
+.accent span,
+.accent strong {
+  color: #ffffff;
+}
+
+.warm {
+  background: linear-gradient(135deg, #fef3d1 0%, #fde8b2 100%);
+}

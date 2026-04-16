@@ -1,0 +1,44 @@
+.page {
+  display: grid;
+  gap: 20px;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.contentGrid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 20px;
+}
+
+.singleColumn {
+  display: grid;
+  gap: 20px;
+}
+
+.message {
+  margin: 0;
+  padding: 14px 16px;
+  border-radius: 16px;
+  font-weight: 600;
+}
+
+.error {
+  background: #ffe3e3;
+  color: #9f2323;
+}
+
+.loading {
+  background: #eaf4fb;
+  color: #24516d;
+}
+
+@media (max-width: 900px) {
+  .contentGrid {
+    grid-template-columns: 1fr;
+  }
+}
